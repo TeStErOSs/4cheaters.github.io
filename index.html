@@ -1,39 +1,36 @@
 <html>
-	<head>
-		<title>
-	Lozinschi Cristian
-		</title>
-	</head>
+<head>
+<title>Form_ex10</title>
+</head>
 <body>
-<h1><p align="center">CURRICULUM VITAE</p></h1>
-<b><h2><p align="center">1. DATE GENERALE</p></h2></b> 
-1. Nume: Lozinschi<br/>
-2. Prenume: Cristian<br/>
-3. Sex: Masculin<br/>
-4. Data nașterii: 11/ianuarie/2003<br/>
-5. Starea socială: Elev<br/>
-6. Domiciliul: Schinoasa, Sihastrului 90<br/>
-7. Telefon: 078186450<br/>
-8. Codul grupei: II negativă<br/>
-9. An de studii: Anul 2<br/>
-<b><h2><p align="center">2. STUDII</p></h2></b>
-<b>DENUMIRE SPECIALIZARE : </b>Rețele de calculatoare. <br/> <br/>
-<b>ȘCOALA ABSOLVITĂ, ANUL : </b>Liceul Teoretic Cu Profil Arte, Ion și Doina Aldea-Teodorovici. 2018<br/>
-<b><h2><p align="center">3. LIMBI POSEDATE</p></h2></b>
-<p align="center">(A enumera cu unul din calificativele: Excelent / Bine / Suficient / Slab)</p><br/>
-<pre>3.1.Română (Excelent)     3.2.Rusă (Bine)     3.3.Engleză (Bine)     3.4.Germană (Slab)</pre>
-<b><h2><p align="center">4. CUNOAȘTEREA MIJLOACELOR <br/> INFORMATICE</p></h2></b>
-<p align="center">(a enumera domeniile si nivelul de cunoaștere)</p><br/>
-4.1.SO Windows NT, WindowsME la nivel de operare liberă<br/>
-4.2.SGBD „Oracle”, „FoxPro”<br/>
-4.3. .......<br/>
-<b><h2><p align="center">5. DOMENIUL DE INTERESE</p></h2></b>
-5.1.Management informațional, Informatizarea societății<br/>
-5.2.Proiectarea - dezvoltarea sistemelor informatice<br/>
-<dd>5.3. .......</dd>
-<b><h2><p align="center">6. ALTE INFORMAȚII</p></h2></b>
-<dd>6.1. Supus militar, nr livretului <br/>
-6.2. ...... </dd>
-<pre><b>		Data completării: 16/09/2020</b></pre>
+<h1>Un formular complex</h1>
+<hr>
+<center>
+<table bgcolor="orange"> <form action="mailto:lozinschicristian@gmail.com" method="post">
+<caption align="top">MENIU</caption>
+<tr align="left"><th>Numele: <td><input type="text" name="numele">
+<tr align="left"><th>Preumele: <td><input type="text" name="prenumele">
+<tr align="left"><th>Telefonul: <td><input type="text" name="telefonul">
+<tr align="left"><th>Alegeti pizza:
+<td>
+<input type="checkbox" name="ciuperci">cu ciuperci
+<input type="checkbox" name="mexicana">mexicana
+<input type="checkbox" name="europeana">europeana
+<tr align="left"><th>Alegeti plata:
+<td bgcolor="lightblue">
+   <ul>
+     <li><input type="radio" name="plata">cash
+     <li><input type="radio" name="plata">card
+   </ul>
+<tr align="left"><th>Comentarii:
+<td>
+<textarea name="comentarii" cols="30" rows="5" wrap="off">
+Inserati aici aprecierile dumneavoastra legate de calitatea serviciilor noastre
+</textarea>
+<tr align="left" valign="top">
+<td>
+<input type="reset" value="Sterge"><td><input type="submit" value="Expedieaza">
+</form>
+</table>
 </body>
 </html>
